@@ -45,7 +45,7 @@ const About = () => {
       </div>
       <div className="divider"></div>
       <div className="skill-heading">
-        Skills <span>& Tools</span>
+        Skills <span className="tools">& Tools</span>
       </div>
       <div className="skill-container">{skillArray}</div>
     </div>
