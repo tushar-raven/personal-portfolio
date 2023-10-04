@@ -2,8 +2,8 @@ import { HeaderButton, DarkModeButton, HamBurgerButton } from "./Buttons";
 import { Link } from "react-router-dom";
 import resume from "/Tushar-Tayal-Resume.pdf";
 import { useState } from "react";
-import sun from "../assets/sun.png";
-import moon from "../assets/moon.png";
+import sun from "/assets/sun.png";
+import moon from "/assets/moon.png";
 import MobileNav from "./MobileNav";
 
 const Header = () => {

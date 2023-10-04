@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pfp from "../assets/pfp.jpeg";
+import pfp from "/assets/pfp.jpeg";
 
 const Home = () => {
   return (
