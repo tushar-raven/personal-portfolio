@@ -1,76 +1,76 @@
 export const skillsData = [
   {
-    image: "src/assets/skills/html5.svg",
+    image: "/assets/skills/html5.svg",
     caption: "HTML",
   },
 
   {
-    image: "src/assets/skills/css.svg",
+    image: "/assets/skills/css.svg",
     caption: "CSS",
   },
 
   {
-    image: "src/assets/skills/javascript.svg",
+    image: "/assets/skills/javascript.svg",
     caption: "Javascript",
   },
 
   {
-    image: "src/assets/skills/react.svg",
+    image: "/assets/skills/react.svg",
     caption: "React",
   },
 
   {
-    image: "src/assets/skills/git.svg",
+    image: "/assets/skills/git.svg",
     caption: "Git",
   },
 
   {
-    image: "src/assets/skills/github.webp",
+    image: "/assets/skills/github.webp",
     caption: "GitHub",
   },
 
   {
-    image: "src/assets/skills/npm.svg",
+    image: "/assets/skills/npm.svg",
     caption: "NPM",
   },
 
   {
-    image: "src/assets/skills/webpack.svg",
+    image: "/assets/skills/webpack.svg",
     caption: "Webpack",
   },
 
   {
-    image: "src/assets/skills/netlify.svg",
+    image: "/assets/skills/netlify.svg",
     caption: "Netlify",
   },
 
   {
-    image: "src/assets/skills/react-router.svg",
+    image: "/assets/skills/react-router.svg",
     caption: "React Router",
   },
 
   {
-    image: "src/assets/skills/jest.svg",
+    image: "/assets/skills/jest.svg",
     caption: "Jest",
   },
 
   {
-    image: "src/assets/skills/vite.svg",
+    image: "/assets/skills/vite.svg",
     caption: "Vite",
   },
 
   {
-    image: "src/assets/skills/node.svg",
+    image: "/assets/skills/node.svg",
     caption: "Node.js",
   },
 
   {
-    image: "src/assets/skills/mongodb.svg",
+    image: "/assets/skills/mongodb.svg",
     caption: "MongoDB",
   },
 
   {
-    image: "src/assets/skills/cypress.svg",
+    image: "/assets/skills/cypress.svg",
     caption: "Cypress",
   },
 ];
