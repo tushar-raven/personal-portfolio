@@ -505,6 +505,10 @@ button {
     background-color: var(--footerPrim);
     color: var(--quaternary);
   }
+
+  .nav-link-underline {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {

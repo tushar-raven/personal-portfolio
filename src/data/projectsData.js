@@ -9,6 +9,16 @@ export const projectData = [
     sourceLink: "https://github.com/tushar-raven/cv-project",
   },
   {
+    name: "Memory Game",
+    stack: "Vite, React and",
+    image: "/assets/projects/memory-game.png",
+    description:
+      "A simple memory game where you are not supposed to click the same image twice. All the characters here are from Rick and Morty API because I love that cartoon.",
+    liveLink: "https://r-m-memory-game.netlify.app/",
+    sourceLink: "https://github.com/tushar-raven/memory-game",
+  },
+
+  {
     name: "Project Manager",
     stack: "HTML, CSS, Webpack and Javascript",
     image: "/assets/projects/todo.png",
@@ -41,10 +51,10 @@ export const projectData = [
   {
     name: "Tic-Tac-Toe",
     stack: "HTML, CSS and Javascript",
-    image: "/assets/projects/etch.png",
+    image: "/assets/projects/tic-tac-toe.png",
     description:
-      "A simple calculator to let you add, subtract, multiple, and delete. You can even do decimal calculations. I built this using vanilla JS to apply my DOM manipulation skills.",
-    liveLink: "https://tushar-raven.github.io/Etch-a-Sketch/",
-    sourceLink: "https://github.com/tushar-raven/Etch-a-Sketch",
+      "A simple tic-tac-toe game that you can play with your friends. Just put your name and your friend's name and start playing.",
+    liveLink: "https://tushar-raven.github.io/tic-tac-toe/",
+    sourceLink: "https://github.com/tushar-raven/tic-tac-toe",
   },
 ];
