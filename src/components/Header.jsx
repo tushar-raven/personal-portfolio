@@ -11,6 +11,7 @@ const Header = () => {
   const [image, setImage] = useState(sun);
   const [modeText, setModeText] = useState("Light");
   const [menu, setMenu] = useState("mobile-nav-close");
+  const [overlay, setOverlay] = useState("");
 
   const handleDarkMode = () => {
     setDarkTheme(!darkTheme);
@@ -32,46 +33,51 @@ const Header = () => {
   const handleMenu = () => {
     if (menu === "mobile-nav") {
       setMenu("mobile-nav-close");
+      setOverlay("");
     } else {
       setMenu("mobile-nav");
+      setOverlay("overlay");
     }
   };
 
   return (
-    <div className="header">
-      <Link className="nav-home" to="/">
-        Tushar
-      </Link>
-      <div className="nav-bar">
-        <HeaderButton to="/" name="Home" />
-        <HeaderButton to="/about" name="About" />
-        <HeaderButton to="/projects" name="Projects" />
-        <div className="nav">
-          <a
-            className="nav-link"
-            target="_blank"
-            rel="noreferrer"
-            href={resume}
-          >
-            Resume
-          </a>
-          <div className="nav-link-underline"></div>
+    <>
+      <div className={overlay} onClick={handleMenu}></div>
+      <div className="header">
+        <Link className="nav-home" to="/">
+          Tushar
+        </Link>
+        <div className="nav-bar">
+          <HeaderButton to="/" name="Home" />
+          <HeaderButton to="/about" name="About" />
+          <HeaderButton to="/projects" name="Projects" />
+          <div className="nav">
+            <a
+              className="nav-link"
+              target="_blank"
+              rel="noreferrer"
+              href={resume}
+            >
+              Resume
+            </a>
+            <div className="nav-link-underline"></div>
+          </div>
+          <DarkModeButton
+            icon={image}
+            handleDarkMode={handleDarkMode}
+            modeText={modeText}
+          />
         </div>
-        <DarkModeButton
-          icon={image}
+        <HamBurgerButton handleMenu={handleMenu} />
+        <MobileNav
+          image={image}
           handleDarkMode={handleDarkMode}
           modeText={modeText}
+          handleMenu={handleMenu}
+          menu={menu}
         />
       </div>
-      <HamBurgerButton handleMenu={handleMenu} />
-      <MobileNav
-        image={image}
-        handleDarkMode={handleDarkMode}
-        modeText={modeText}
-        handleMenu={handleMenu}
-        menu={menu}
-      />
-    </div>
+    </>
   );
 };
 
