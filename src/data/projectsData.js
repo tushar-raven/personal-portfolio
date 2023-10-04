@@ -2,7 +2,7 @@ export const projectData = [
   {
     name: "CV Creator",
     stack: "React and CSS",
-    image: "src/assets/projects/cv-creator.png",
+    image: "/src/assets/projects/cv-creator.png",
     description:
       "This is a real-time CV builder. It uses react class components and state management to help you build your resume. You can see real-time changes in your CV as you add personal information, experience, and education. And you can even get it in a pdf form.",
     liveLink: "https://raven-cv-creator.netlify.app/",
@@ -11,7 +11,7 @@ export const projectData = [
   {
     name: "Project Manager",
     stack: "HTML, CSS, Webpack and Javascript",
-    image: "src/assets/projects/todo.png",
+    image: "/src/assets/projects/todo.png",
     description:
       "This is a project management app that let you add projects, and then add to-dos, deadlines, and even notes to these projects. You can edit these projects anytime and filter them according to deadlines and priority. It's built for a smooth and intuitive experience using webpack.",
     liveLink: "https://tushar-raven.github.io/To-Do-App/",
